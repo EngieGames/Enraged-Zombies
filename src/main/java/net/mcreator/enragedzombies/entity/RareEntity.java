@@ -4,9 +4,13 @@ package net.mcreator.enragedzombies.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -26,6 +30,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -43,7 +48,13 @@ import net.mcreator.enragedzombies.procedures.RareProProcedure;
 import net.mcreator.enragedzombies.init.EnragedZombiesModItems;
 import net.mcreator.enragedzombies.init.EnragedZombiesModEntities;
 
+@Mod.EventBusSubscriber
 public class RareEntity extends PathfinderMob {
+	@SubscribeEvent
+	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(EnragedZombiesModEntities.RARE.get(), 5, 1, 4));
+	}
+
 	public RareEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(EnragedZombiesModEntities.RARE.get(), world);
 	}

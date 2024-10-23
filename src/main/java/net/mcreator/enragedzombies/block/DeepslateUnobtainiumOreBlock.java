@@ -1,7 +1,6 @@
 
 package net.mcreator.enragedzombies.block;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 
 import net.minecraft.world.level.material.MaterialColor;
@@ -14,6 +13,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
@@ -22,10 +22,9 @@ import net.mcreator.enragedzombies.procedures.UnobtainiumOreDestroyedByPlayerPro
 public class DeepslateUnobtainiumOreBlock extends Block {
 	public DeepslateUnobtainiumOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate.step")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate.hit")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.deepslate.fall"))))
-				.strength(7f, 1200f).requiresCorrectToolForDrops().randomTicks().noLootTable());
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.deepslate.break")), () -> new SoundEvent(new ResourceLocation("block.deepslate.step")),
+						() -> new SoundEvent(new ResourceLocation("block.deepslate.place")), () -> new SoundEvent(new ResourceLocation("block.deepslate.hit")), () -> new SoundEvent(new ResourceLocation("block.deepslate.fall"))))
+				.strength(7f, 1200f).requiresCorrectToolForDrops().randomTicks().noDrops());
 	}
 
 	@Override

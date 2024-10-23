@@ -8,6 +8,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.enragedzombies.init.EnragedZombiesModTabs;
@@ -47,6 +48,6 @@ public class LegendaryHoeItem extends HoeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Legendary"));
+		list.add(new TextComponent("Legendary"));
 	}
 }

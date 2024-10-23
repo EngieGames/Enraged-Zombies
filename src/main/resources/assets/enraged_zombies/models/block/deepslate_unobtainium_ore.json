@@ -8,6 +8,5 @@
     "south": "enraged_zombies:blocks/deepslateunobtainiumore",
     "west": "enraged_zombies:blocks/deepslateunobtainiumore",
     "particle": "enraged_zombies:blocks/deepslateunobtainiumore"
-  },
-  "render_type": "solid"
+  }
 }

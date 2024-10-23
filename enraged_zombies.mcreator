@@ -11,7 +11,6 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormalRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormalEntity.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_normal_biome_modifier.json",
           "src/main/resources/assets/enraged_zombies/models/item/enraged_normal_spawn_egg.json"
         ]
       }
@@ -26,7 +25,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeedEntity.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_speed_biome_modifier.json",
           "src/main/resources/assets/enraged_zombies/models/item/enraged_speed_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeedRenderer.java"
         ]
@@ -76,8 +74,7 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/EnragedBoomEntity.java",
           "src/main/resources/assets/enraged_zombies/models/item/enraged_boom_spawn_egg.json",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedBoomRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_boom_biome_modifier.json"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedBoomRenderer.java"
         ]
       }
     },
@@ -92,8 +89,7 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/BEnragedNormalRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/BEnragedNormalEntity.java",
-          "src/main/resources/assets/enraged_zombies/models/item/b_enraged_normal_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/b_enraged_normal_biome_modifier.json"
+          "src/main/resources/assets/enraged_zombies/models/item/b_enraged_normal_spawn_egg.json"
         ]
       }
     },
@@ -577,7 +573,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/legendary_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/legendary_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/LegendaryRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/LegendaryEntity.java"
         ]
@@ -593,7 +588,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/epic_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/epic_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EpicRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/EpicEntity.java"
         ]
@@ -608,7 +602,6 @@
       "registry_name": "rare",
       "metadata": {
         "files": [
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/rare_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/RareEntity.java",
           "src/main/resources/assets/enraged_zombies/models/item/rare_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/RareRenderer.java"
@@ -625,7 +618,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/UncommonEntity.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/uncommon_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/UncommonRenderer.java",
           "src/main/resources/assets/enraged_zombies/models/item/uncommon_spawn_egg.json"
         ]
@@ -642,7 +634,6 @@
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/common_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/CommonRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/common_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/CommonEntity.java"
         ]
       }
@@ -657,7 +648,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/b_enraged_boom_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/b_enraged_boom_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/BEnragedBoomRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/BEnragedBoomEntity.java"
         ]
@@ -868,7 +858,6 @@
       "registry_name": "mythic",
       "metadata": {
         "files": [
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/mythic_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/MythicEntity.java",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/MythicRenderer.java",
           "src/main/resources/assets/enraged_zombies/models/item/mythic_spawn_egg.json"
@@ -886,8 +875,7 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/ExoticEntity.java",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/ExoticRenderer.java",
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/exotic_biome_modifier.json"
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_spawn_egg.json"
         ]
       }
     },
@@ -992,8 +980,7 @@
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/p_enraged_normal_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/PEnragedNormalRenderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/PEnragedNormalEntity.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/p_enraged_normal_biome_modifier.json"
+          "src/main/java/net/mcreator/enragedzombies/entity/PEnragedNormalEntity.java"
         ]
       }
     },
@@ -1007,7 +994,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/PEnragedBoomRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/p_enraged_boom_biome_modifier.json",
           "src/main/resources/assets/enraged_zombies/models/item/p_enraged_boom_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/entity/PEnragedBoomEntity.java"
         ]
@@ -1024,7 +1010,6 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/OEnragedNormalRenderer.java",
           "src/main/resources/assets/enraged_zombies/models/item/o_enraged_normal_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/o_enraged_normal_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/OEnragedNormalEntity.java"
         ]
       }
@@ -1039,7 +1024,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/OEnragedBoomRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/o_enraged_boom_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/OEnragedBoomEntity.java",
           "src/main/resources/assets/enraged_zombies/models/item/o_enraged_boom_spawn_egg.json"
         ]
@@ -1232,7 +1216,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/BEnragedSpeedRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/b_enraged_speed_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/BEnragedSpeedEntity.java",
           "src/main/resources/assets/enraged_zombies/models/item/b_enraged_speed_spawn_egg.json"
         ]
@@ -1249,8 +1232,7 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/PEnragedSpeedEntity.java",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/PEnragedSpeedRenderer.java",
-          "src/main/resources/assets/enraged_zombies/models/item/p_enraged_speed_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/p_enraged_speed_biome_modifier.json"
+          "src/main/resources/assets/enraged_zombies/models/item/p_enraged_speed_spawn_egg.json"
         ]
       }
     },
@@ -1265,8 +1247,7 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/entity/OEnragedSpeedEntity.java",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/OEnragedSpeedRenderer.java",
-          "src/main/resources/assets/enraged_zombies/models/item/o_enraged_speed_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/o_enraged_speed_biome_modifier.json"
+          "src/main/resources/assets/enraged_zombies/models/item/o_enraged_speed_spawn_egg.json"
         ]
       }
     },
@@ -1433,8 +1414,8 @@
   "language_map": {
     "en_us": {
       "item.enraged_zombies.uncommon_sword": "Uncommon Sword",
-      "item.enraged_zombies.common_sword": "Common Sword",
       "entity.enraged_zombies.p_enraged_normal": "Purple Enraged Normal",
+      "item.enraged_zombies.common_sword": "Common Sword",
       "item.enraged_zombies.common_enraged_chestplate": "Common Enraged Chestplate",
       "item.enraged_zombies.unobtainium_shovel": "Unobtainium Shovel",
       "entity.enraged_zombies.epic": "Epic",
@@ -1444,9 +1425,9 @@
       "item.enraged_zombies.rare_hoe": "Rare Hoe",
       "entity.enraged_zombies.legendary": "Legendary",
       "item.enraged_zombies.rare_sword": "Rare Sword",
-      "advancements.unobtainium_full_armor.descr": "Collect all Unobtainium armor pieces.",
-      "item.enraged_zombies.unobtainium_sword": "Unobtainium Sword",
       "item.enraged_zombies.mythic_hoe": "Mythic Hoe",
+      "item.enraged_zombies.unobtainium_sword": "Unobtainium Sword",
+      "advancements.unobtainium_full_armor.descr": "Collect all Unobtainium armor pieces.",
       "item.enraged_zombies.exotic_sword": "Exotic Sword",
       "advancements.legendary_armor.descr": "Amazing Preformance!",
       "item.enraged_zombies.exotic_enraged_leggings": "Exotic Enraged Leggings",
@@ -1456,9 +1437,9 @@
       "item.enraged_zombies.exotic_pickaxe": "Exotic Pickaxe",
       "advancements.enraged.title": "Enraged",
       "item.enraged_zombies.legendary_enraged_boots": "Legendary Enraged Boots",
-      "item.enraged_zombies.uncommon_axe": "Uncommon Axe",
-      "item.enraged_zombies.rare_enraged_helmet": "Rare Enraged Helmet",
       "item.enraged_zombies.mythic_enraged_chestplate": "Mythic Enraged Chestplate",
+      "item.enraged_zombies.rare_enraged_helmet": "Rare Enraged Helmet",
+      "item.enraged_zombies.uncommon_axe": "Uncommon Axe",
       "advancements.exotic_armor.descr": "Amazing Preformance!",
       "item.enraged_zombies.unobtainium_enraged_helmet": "Unobtainium Enraged Helmet",
       "item.enraged_zombies.rare_pickaxe": "Rare Pickaxe",
@@ -1582,7 +1563,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Made with MCreator.",
     "modElementsPackage": "net.mcreator.enragedzombies",
     "lockBaseModFiles": false

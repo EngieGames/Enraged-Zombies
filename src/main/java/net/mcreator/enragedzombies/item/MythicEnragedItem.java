@@ -14,6 +14,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.enragedzombies.init.EnragedZombiesModTabs;
@@ -74,7 +75,7 @@ public abstract class MythicEnragedItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Mythic"));
+			list.add(new TextComponent("Mythic"));
 		}
 
 		@Override
@@ -91,7 +92,7 @@ public abstract class MythicEnragedItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Mythic"));
+			list.add(new TextComponent("Mythic"));
 		}
 
 		@Override
@@ -108,7 +109,7 @@ public abstract class MythicEnragedItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Mythic"));
+			list.add(new TextComponent("Mythic"));
 		}
 
 		@Override
@@ -125,7 +126,7 @@ public abstract class MythicEnragedItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("Mythic"));
+			list.add(new TextComponent("Mythic"));
 		}
 
 		@Override
