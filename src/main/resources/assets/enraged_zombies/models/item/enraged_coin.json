@@ -1,0 +1,7 @@
+{
+  "parent": "enraged_zombies:custom/engicoin",
+  "textures": {
+    "1": "enraged_zombies:blocks/cointexture",
+    "particle": "enraged_zombies:items/rotten_flesh"
+  }
+}

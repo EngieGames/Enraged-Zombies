@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "exoticpickaxe",
+    "customModelName": "Normal",
+    "name": "Exotic Pickaxe",
+    "specialInfo": [
+      "Exotic"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:EnragedWeaponry"
+    },
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.2,
+    "enchantability": 30,
+    "damageVsEntity": 12.0,
+    "usageCount": 8128,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngiCoin"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

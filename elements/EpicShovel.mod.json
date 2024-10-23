@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "texture": "epicenraged_shovel",
+    "customModelName": "Normal",
+    "name": "Epic Shovel",
+    "specialInfo": [
+      "Epic"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:EnragedWeaponry"
+    },
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 3.25,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngiCoin"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

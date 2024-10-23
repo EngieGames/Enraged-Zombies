@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "texture": "mythichoe",
+    "customModelName": "Normal",
+    "name": "Mythic Hoe",
+    "specialInfo": [
+      "Mythic"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:EnragedWeaponry"
+    },
+    "harvestLevel": 6,
+    "efficiency": 11.0,
+    "attackSpeed": 6.0,
+    "enchantability": 25,
+    "damageVsEntity": 3.0,
+    "usageCount": 5088,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngiCoin"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

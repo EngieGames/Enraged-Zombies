@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "up": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "north": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "east": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "south": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "west": "enraged_zombies:blocks/deepslateunobtainiumore",
+    "particle": "enraged_zombies:blocks/deepslateunobtainiumore"
+  },
+  "render_type": "solid"
+}

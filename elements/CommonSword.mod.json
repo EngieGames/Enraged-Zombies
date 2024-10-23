@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "commonenraged_sword",
+    "customModelName": "Normal",
+    "name": "Common Sword",
+    "specialInfo": [
+      "Common"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:EnragedWeaponry"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 5,
+    "damageVsEntity": 5.0,
+    "usageCount": 131,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngiCoin"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

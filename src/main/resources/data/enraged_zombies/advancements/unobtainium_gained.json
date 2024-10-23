@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "enraged_zombies:unobtainium_sword"
+    },
+    "title": {
+      "translate": "advancements.unobtainium_gained.title"
+    },
+    "description": {
+      "translate": "advancements.unobtainium_gained.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unobtainium_gained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "enraged_zombies:enraged"
+}
