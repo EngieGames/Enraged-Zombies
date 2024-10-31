@@ -4,6 +4,9 @@
  */
 package net.mcreator.enragedzombies.init;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -18,7 +21,7 @@ public class EnragedZombiesModTabs {
 				return new ItemStack(EnragedZombiesModItems.LEGENDARY_SWORD.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -29,7 +32,7 @@ public class EnragedZombiesModTabs {
 				return new ItemStack(EnragedZombiesModItems.ENRAGED_COIN.get());
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}
