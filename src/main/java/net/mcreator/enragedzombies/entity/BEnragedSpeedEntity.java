@@ -4,14 +4,10 @@ package net.mcreator.enragedzombies.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.common.DungeonHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -28,7 +24,6 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -43,13 +38,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.enragedzombies.init.EnragedZombiesModItems;
 import net.mcreator.enragedzombies.init.EnragedZombiesModEntities;
 
-@Mod.EventBusSubscriber
 public class BEnragedSpeedEntity extends Monster {
-	@SubscribeEvent
-	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(EnragedZombiesModEntities.B_ENRAGED_SPEED.get(), 20, 1, 4));
-	}
-
 	public BEnragedSpeedEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(EnragedZombiesModEntities.B_ENRAGED_SPEED.get(), world);
 	}

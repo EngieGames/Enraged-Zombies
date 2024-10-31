@@ -18,7 +18,7 @@ import net.mcreator.enragedzombies.procedures.UnobtainiumOreDestroyedByPlayerPro
 
 public class DeepslateUnobtainiumOreBlock extends Block {
 	public DeepslateUnobtainiumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).sound(SoundType.DEEPSLATE).strength(7f, 1200f).requiresCorrectToolForDrops().randomTicks().noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).sound(SoundType.DEEPSLATE).strength(7f, 1200f).requiresCorrectToolForDrops().randomTicks().noLootTable());
 	}
 
 	@Override

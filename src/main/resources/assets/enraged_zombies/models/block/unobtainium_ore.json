@@ -8,5 +8,6 @@
     "south": "enraged_zombies:blocks/unobtainiumore",
     "west": "enraged_zombies:blocks/unobtainiumore",
     "particle": "enraged_zombies:blocks/unobtainiumore"
-  }
+  },
+  "render_type": "solid"
 }

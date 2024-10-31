@@ -18,7 +18,7 @@ import net.mcreator.enragedzombies.procedures.UnobtainiumOreDestroyedByPlayerPro
 
 public class UnobtainiumOreBlock extends Block {
 	public UnobtainiumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).sound(SoundType.STONE).strength(5.5f, 1200f).requiresCorrectToolForDrops().randomTicks().noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).sound(SoundType.STONE).strength(5.5f, 1200f).requiresCorrectToolForDrops().randomTicks().noLootTable());
 	}
 
 	@Override
