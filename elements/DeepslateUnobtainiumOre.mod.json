@@ -40,11 +40,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 0,
     "useLootTableForDrops": false,

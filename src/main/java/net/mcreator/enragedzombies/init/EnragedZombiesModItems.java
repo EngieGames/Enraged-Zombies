@@ -165,8 +165,8 @@ public class EnragedZombiesModItems {
 	public static final RegistryObject<Item> UNOBTAINIUM_AXE = REGISTRY.register("unobtainium_axe", () -> new UnobtainiumAxeItem());
 	public static final RegistryObject<Item> UNOBTAINIUM_SHOVEL = REGISTRY.register("unobtainium_shovel", () -> new UnobtainiumShovelItem());
 	public static final RegistryObject<Item> UNOBTAINIUM_HOE = REGISTRY.register("unobtainium_hoe", () -> new UnobtainiumHoeItem());
-	public static final RegistryObject<Item> DEEPSLATE_UNOBTAINIUM_ORE = block(EnragedZombiesModBlocks.DEEPSLATE_UNOBTAINIUM_ORE, null);
-	public static final RegistryObject<Item> UNOBTAINIUM_ORE = block(EnragedZombiesModBlocks.UNOBTAINIUM_ORE, null);
+	public static final RegistryObject<Item> DEEPSLATE_UNOBTAINIUM_ORE = block(EnragedZombiesModBlocks.DEEPSLATE_UNOBTAINIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> UNOBTAINIUM_ORE = block(EnragedZombiesModBlocks.UNOBTAINIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> B_ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("b_enraged_speed_spawn_egg",
 			() -> new ForgeSpawnEggItem(EnragedZombiesModEntities.B_ENRAGED_SPEED, -14933617, -16777216, new Item.Properties().tab(EnragedZombiesModTabs.TAB_ENRAGED_ZOMBIES)));
 	public static final RegistryObject<Item> P_ENRAGED_SPEED_SPAWN_EGG = REGISTRY.register("p_enraged_speed_spawn_egg",
