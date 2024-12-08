@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Uhh what is this?",
-    "achievementDescription": "Collect your first Unobtainium item from Unobtainium Ore.",
+    "achievementDescription": "Collect your first Unobtainium item/tool.",
     "achievementIcon": {
       "value": "CUSTOM:UnobtainiumSword"
     },

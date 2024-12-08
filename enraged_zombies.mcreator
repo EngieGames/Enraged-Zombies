@@ -1146,25 +1146,6 @@
       }
     },
     {
-      "name": "UnobtainiumOreDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtainium_ore_destroyed_by_player",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/enragedzombies/procedures/UnobtainiumOreDestroyedByPlayerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "DeepslateUnobtainiumOre",
       "type": "block",
       "sortid": 110,
@@ -1190,6 +1171,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/unobtainium_ore.json",
+          "src/main/java/net/mcreator/enragedzombies/world/features/ores/UnobtainiumOreFeature.java",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
           "src/main/resources/assets/enraged_zombies/models/block/unobtainium_ore.json",
           "src/main/resources/assets/enraged_zombies/blockstates/unobtainium_ore.json",
           "src/main/java/net/mcreator/enragedzombies/block/UnobtainiumOreBlock.java"
@@ -1426,6 +1409,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlockDeepslateUnob",
+      "type": "loottable",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_deepslate_unob",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/loot_tables/blocks/deepslate_unobtainium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockUnob",
+      "type": "loottable",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_unob",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/loot_tables/blocks/unobtainium_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1533,7 +1542,7 @@
       "item.enraged_zombies.mythic_axe": "Mythic Axe",
       "item.enraged_zombies.epic_spawn_egg": "Epic Spawn Egg",
       "item.enraged_zombies.p_enraged_speed_spawn_egg": "Purple Enraged Speed Spawn Egg",
-      "advancements.unobtainium_gained.descr": "Collect your first Unobtainium item from Unobtainium Ore.",
+      "advancements.unobtainium_gained.descr": "Collect your first Unobtainium item/tool.",
       "entity.enraged_zombies.enraged_speed": "Enraged Speed",
       "item.enraged_zombies.uncommon_pickaxe": "Uncommon Pickaxe",
       "item.enraged_zombies.mythic_pickaxe": "Mythic Pickaxe",
@@ -1570,7 +1579,7 @@
   "workspaceSettings": {
     "modid": "enraged_zombies",
     "modName": "Enraged Zombies",
-    "version": "10.23.24",
+    "version": "12.8.24",
     "description": "Made with MCreator",
     "author": "EngieGames",
     "websiteURL": "https://www.twitch.tv/engiegames",

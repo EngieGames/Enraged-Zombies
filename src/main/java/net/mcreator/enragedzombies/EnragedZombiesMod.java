@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.enragedzombies.init.EnragedZombiesModTabs;
 import net.mcreator.enragedzombies.init.EnragedZombiesModItems;
+import net.mcreator.enragedzombies.init.EnragedZombiesModFeatures;
 import net.mcreator.enragedzombies.init.EnragedZombiesModEntities;
 import net.mcreator.enragedzombies.init.EnragedZombiesModBlocks;
 
@@ -56,6 +57,8 @@ public class EnragedZombiesMod {
 		EnragedZombiesModBlocks.REGISTRY.register(bus);
 		EnragedZombiesModItems.REGISTRY.register(bus);
 		EnragedZombiesModEntities.REGISTRY.register(bus);
+
+		EnragedZombiesModFeatures.REGISTRY.register(bus);
 
 	}
 
