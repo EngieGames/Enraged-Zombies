@@ -198,5 +198,131 @@ public class ArmorProcedure {
 				}
 			}
 		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_ENRAGED_HELMET.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr38 && _plr38.level instanceof ServerLevel
+					&& _plr38.getAdvancements().getOrStartProgress(_plr38.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_ENRAGED_CHESTPLATE.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr41 && _plr41.level instanceof ServerLevel
+					&& _plr41.getAdvancements().getOrStartProgress(_plr41.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_ENRAGED_CHESTPLATE.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr44 && _plr44.level instanceof ServerLevel
+					&& _plr44.getAdvancements().getOrStartProgress(_plr44.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_ENRAGED_BOOTS.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr47 && _plr47.level instanceof ServerLevel
+					&& _plr47.getAdvancements().getOrStartProgress(_plr47.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_SWORD.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr50 && _plr50.level instanceof ServerLevel
+					&& _plr50.getAdvancements().getOrStartProgress(_plr50.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_PICKAXE.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr53 && _plr53.level instanceof ServerLevel
+					&& _plr53.getAdvancements().getOrStartProgress(_plr53.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_AXE.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr56 && _plr56.level instanceof ServerLevel
+					&& _plr56.getAdvancements().getOrStartProgress(_plr56.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_SHOVEL.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr59 && _plr59.level instanceof ServerLevel
+					&& _plr59.getAdvancements().getOrStartProgress(_plr59.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(EnragedZombiesModItems.UNOBTAINIUM_HOE.get())) : false) {
+			if ((entity instanceof ServerPlayer _plr62 && _plr62.level instanceof ServerLevel
+					&& _plr62.getAdvancements().getOrStartProgress(_plr62.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"))).isDone()) == false) {
+				if (entity instanceof ServerPlayer _player) {
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("enraged_zombies:unobtainium_gained"));
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
+					}
+				}
+			}
+		}
 	}
 }
