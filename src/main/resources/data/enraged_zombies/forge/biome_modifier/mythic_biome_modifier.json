@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "enraged_zombies:mythic",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

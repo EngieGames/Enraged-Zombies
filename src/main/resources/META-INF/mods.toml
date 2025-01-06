@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="enraged_zombies"
+version="1.6.25"
+displayName="Enraged Zombies"
+credits="Made with MCreator."
+displayURL="https://www.twitch.tv/engiegames"
+logoFile="logo.png"
+authors="DevEngie"
+description="Made with MCreator"
+
+[[dependencies.enraged_zombies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

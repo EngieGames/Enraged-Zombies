@@ -1,0 +1,78 @@
+{
+  "_fv": 47,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "mythichelmet",
+    "enableBody": true,
+    "textureBody": "mythicchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "mythicleggings",
+    "enableBoots": true,
+    "textureBoots": "mythicboots",
+    "creativeTab": {
+      "value": "CUSTOM:EnragedWeaponry"
+    },
+    "armorTextureFile": "mythicenraged_",
+    "helmetName": "Mythic Enraged Helmet",
+    "bodyName": "Mythic Enraged Chestplate",
+    "leggingsName": "Mythic Enraged Leggings",
+    "bootsName": "Mythic Enraged Boots",
+    "helmetSpecialInfo": [
+      "Mythic"
+    ],
+    "bodySpecialInfo": [
+      "Mythic"
+    ],
+    "leggingsSpecialInfo": [
+      "Mythic"
+    ],
+    "bootsSpecialInfo": [
+      "Mythic"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 50,
+    "damageValueHelmet": 12,
+    "damageValueBody": 28,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 12,
+    "enchantability": 25,
+    "toughness": 5.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EngiCoin"
+      }
+    ]
+  }
+}

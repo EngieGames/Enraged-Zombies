@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "enraged_zombies:legendary_enraged_chestplate"
+    },
+    "title": {
+      "translate": "advancements.legendary_armor.title"
+    },
+    "description": {
+      "translate": "advancements.legendary_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "legendary_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "enraged_zombies:enraged"
+}

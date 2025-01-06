@@ -1,0 +1,7 @@
+{
+  "parent": "enraged_zombies:custom/unobunbox",
+  "textures": {
+    "0": "enraged_zombies:blocks/box",
+    "particle": "enraged_zombies:items/rotten_flesh"
+  }
+}

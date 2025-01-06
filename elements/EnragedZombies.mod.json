@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Enraged Zombies",
+    "icon": {
+      "value": "CUSTOM:EngiCoin"
+    },
+    "showSearch": false
+  }
+}

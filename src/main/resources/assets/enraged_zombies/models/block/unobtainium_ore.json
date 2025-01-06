@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "enraged_zombies:blocks/unobtainiumore",
+    "up": "enraged_zombies:blocks/unobtainiumore",
+    "north": "enraged_zombies:blocks/unobtainiumore",
+    "east": "enraged_zombies:blocks/unobtainiumore",
+    "south": "enraged_zombies:blocks/unobtainiumore",
+    "west": "enraged_zombies:blocks/unobtainiumore",
+    "particle": "enraged_zombies:blocks/unobtainiumore"
+  },
+  "render_type": "solid"
+}
