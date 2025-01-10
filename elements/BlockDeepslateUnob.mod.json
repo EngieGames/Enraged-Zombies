@@ -9,7 +9,7 @@
         "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
-        "hasbonusrolls": true,
+        "hasbonusrolls": false,
         "entries": [
           {
             "type": "item",
