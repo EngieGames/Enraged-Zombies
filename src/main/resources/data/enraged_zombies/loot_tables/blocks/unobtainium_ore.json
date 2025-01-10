@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "enraged_zombies:unobtainium_enraged_helmet",
+          "name": "enraged_zombies:unobtainium_helmet",
           "weight": 1,
           "functions": [
             {
@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "enraged_zombies:unobtainium_enraged_chestplate",
+          "name": "enraged_zombies:unobtainium_chestplate",
           "weight": 1,
           "functions": [
             {
@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "enraged_zombies:unobtainium_enraged_leggings",
+          "name": "enraged_zombies:unobtainium_leggings",
           "weight": 1,
           "functions": [
             {
@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "enraged_zombies:unobtainium_enraged_boots",
+          "name": "enraged_zombies:unobtainium_boots",
           "weight": 1,
           "functions": [
             {
@@ -118,7 +118,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "enraged_zombies:unobtainium_hoe",
+          "name": "enraged_zombies:unobtainiumhoe",
           "weight": 1,
           "functions": [
             {

@@ -7,26 +7,20 @@
     "texture": "mythicsword",
     "customModelName": "Normal",
     "name": "Mythic Sword",
-    "specialInfo": [
-      "Mythic"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 6,
-    "efficiency": 11.0,
-    "attackSpeed": 3.1999999999999997,
-    "enchantability": 25,
-    "damageVsEntity": 14.0,
-    "usageCount": 6096,
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.6,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 3048,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
-    "immuneToFire": true,
+    "repairItems": [],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

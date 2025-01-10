@@ -7,25 +7,19 @@
     "texture": "commonenraged_hoe",
     "customModelName": "Normal",
     "name": "Common Hoe",
-    "specialInfo": [
-      "Common"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 2.0,
-    "enchantability": 5,
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
     "damageVsEntity": 1.0,
-    "usageCount": 131,
+    "usageCount": 59,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

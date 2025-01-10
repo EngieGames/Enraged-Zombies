@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Mobs (Enraged Zombies)",
+    "icon": {
+      "value": "CUSTOM:EnragedZombiesTabIcon"
+    },
+    "showSearch": false
+  }
+}

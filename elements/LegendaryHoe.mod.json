@@ -7,26 +7,20 @@
     "texture": "legendaryenraged_hoe",
     "customModelName": "Normal",
     "name": "Legendary Hoe",
-    "specialInfo": [
-      "Legendary"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 5,
-    "efficiency": 10.0,
-    "attackSpeed": 5.0,
-    "enchantability": 20,
-    "damageVsEntity": 2.0,
-    "usageCount": 4064,
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 4.0,
+    "enchantability": 15,
+    "damageVsEntity": 1.0,
+    "usageCount": 2032,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
-    "immuneToFire": true,
+    "repairItems": [],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

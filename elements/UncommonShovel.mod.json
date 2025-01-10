@@ -7,25 +7,19 @@
     "texture": "uncommonenraged_shovel",
     "customModelName": "Normal",
     "name": "Uncommon Shovel",
-    "specialInfo": [
-      "Uncommon"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 2.25,
-    "usageCount": 250,
+    "enchantability": 5,
+    "damageVsEntity": 1.75,
+    "usageCount": 131,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

@@ -7,25 +7,19 @@
     "texture": "uncommonenraged_axe",
     "customModelName": "Normal",
     "name": "Uncommon Axe",
-    "specialInfo": [
-      "Uncommon"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 2,
-    "efficiency": 6.0,
-    "attackSpeed": 0.9,
-    "enchantability": 14,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 5,
     "damageVsEntity": 9.0,
-    "usageCount": 250,
+    "usageCount": 131,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

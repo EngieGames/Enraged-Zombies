@@ -8,14 +8,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class EnragedZombiesModTabs {
-	public static CreativeModeTab TAB_ENRAGED_UTILITY;
-	public static CreativeModeTab TAB_ENRAGED_ZOMBIES;
+	public static CreativeModeTab TAB_MOBS;
+	public static CreativeModeTab TAB_ARMOR_AND_TOOLS;
 
 	public static void load() {
-		TAB_ENRAGED_UTILITY = new CreativeModeTab("tabenraged_utility") {
+		TAB_MOBS = new CreativeModeTab("tabmobs") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(EnragedZombiesModItems.LEGENDARY_SWORD.get());
+				return new ItemStack(EnragedZombiesModItems.ENRAGED_ZOMBIES_TAB_ICON.get());
 			}
 
 			@Override
@@ -23,10 +23,10 @@ public class EnragedZombiesModTabs {
 				return false;
 			}
 		};
-		TAB_ENRAGED_ZOMBIES = new CreativeModeTab("tabenraged_zombies") {
+		TAB_ARMOR_AND_TOOLS = new CreativeModeTab("tabarmor_and_tools") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(EnragedZombiesModItems.ENRAGED_COIN.get());
+				return new ItemStack(EnragedZombiesModItems.ENRAGED_ZOMBIES_TAB_ICON_2.get());
 			}
 
 			@Override

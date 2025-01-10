@@ -1,52 +1,39 @@
 
 package net.mcreator.enragedzombies.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.Component;
 
 import net.mcreator.enragedzombies.init.EnragedZombiesModTabs;
-import net.mcreator.enragedzombies.init.EnragedZombiesModItems;
-
-import java.util.List;
 
 public class CommonPickaxeItem extends PickaxeItem {
 	public CommonPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 59;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 0f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 0;
 			}
 
 			public int getEnchantmentValue() {
-				return 5;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EnragedZombiesModItems.ENRAGED_COIN.get()));
+				return Ingredient.of();
 			}
-		}, 1, -2.8f, new Item.Properties().tab(EnragedZombiesModTabs.TAB_ENRAGED_UTILITY));
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Common"));
+		}, 1, -2.8f, new Item.Properties().tab(EnragedZombiesModTabs.TAB_ARMOR_AND_TOOLS));
 	}
 }

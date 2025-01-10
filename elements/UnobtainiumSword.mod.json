@@ -7,26 +7,20 @@
     "texture": "unobtainiumsword",
     "customModelName": "Normal",
     "name": "Unobtainium Sword",
-    "specialInfo": [
-      "Unobtainium"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 8,
-    "efficiency": 13.0,
-    "attackSpeed": 12.8,
-    "enchantability": 35,
-    "damageVsEntity": 22.0,
-    "usageCount": 10160,
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.6,
+    "enchantability": 30,
+    "damageVsEntity": 11.0,
+    "usageCount": 5080,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
-    "immuneToFire": true,
+    "repairItems": [],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

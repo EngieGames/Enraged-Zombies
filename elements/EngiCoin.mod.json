@@ -10,7 +10,7 @@
     "name": "Enraged Coin",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:EnragedZombies"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

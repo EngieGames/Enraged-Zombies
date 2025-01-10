@@ -8,13 +8,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.enragedzombies.init.EnragedZombiesModTabs;
-
 import java.util.List;
 
 public class EngiCoinItem extends Item {
 	public EngiCoinItem() {
-		super(new Item.Properties().tab(EnragedZombiesModTabs.TAB_ENRAGED_ZOMBIES).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(null).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

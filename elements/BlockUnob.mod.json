@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UnobtainiumEnraged.helmet"
+              "value": "CUSTOM:Unobtainium.helmet"
             },
             "weight": 1,
             "minCount": 1,
@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UnobtainiumEnraged.body"
+              "value": "CUSTOM:Unobtainium.body"
             },
             "weight": 1,
             "minCount": 1,
@@ -42,7 +42,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UnobtainiumEnraged.legs"
+              "value": "CUSTOM:Unobtainium.legs"
             },
             "weight": 1,
             "minCount": 1,
@@ -56,7 +56,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UnobtainiumEnraged.boots"
+              "value": "CUSTOM:Unobtainium.boots"
             },
             "weight": 1,
             "minCount": 1,
@@ -126,7 +126,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:UnobtainiumHoe"
+              "value": "CUSTOM:Unobtainiumhoe"
             },
             "weight": 1,
             "minCount": 1,

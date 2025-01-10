@@ -7,25 +7,19 @@
     "texture": "uncommonenraged_pickaxe",
     "customModelName": "Normal",
     "name": "Uncommon Pickaxe",
-    "specialInfo": [
-      "Uncommon"
-    ],
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EnragedWeaponry"
+      "value": "CUSTOM:ArmorAndTools"
     },
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.2,
-    "enchantability": 14,
-    "damageVsEntity": 4.0,
-    "usageCount": 250,
+    "enchantability": 5,
+    "damageVsEntity": 3.0,
+    "usageCount": 131,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:EngiCoin"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

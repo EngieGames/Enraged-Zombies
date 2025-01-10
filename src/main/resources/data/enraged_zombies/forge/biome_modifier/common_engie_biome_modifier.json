@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "enraged_zombies:common_engie",
+    "weight": 35,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
