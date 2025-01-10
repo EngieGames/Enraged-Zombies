@@ -12,7 +12,7 @@ public class UncommonHoeItem extends HoeItem {
 	public UncommonHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 59;
+				return 131;
 			}
 
 			public float getSpeed() {
