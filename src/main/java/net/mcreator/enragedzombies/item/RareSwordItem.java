@@ -24,7 +24,7 @@ public class RareSwordItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
