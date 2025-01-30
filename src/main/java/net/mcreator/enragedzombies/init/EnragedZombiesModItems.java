@@ -14,11 +14,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.enragedzombies.item.UnobtaniumItem;
 import net.mcreator.enragedzombies.item.UnobtainiumhoeItem;
 import net.mcreator.enragedzombies.item.UnobtainiumSwordItem;
 import net.mcreator.enragedzombies.item.UnobtainiumShovelItem;
 import net.mcreator.enragedzombies.item.UnobtainiumPickaxeItem;
+import net.mcreator.enragedzombies.item.UnobtainiumOreChunkletItem;
 import net.mcreator.enragedzombies.item.UnobtainiumItem;
+import net.mcreator.enragedzombies.item.UnobtainiumChunkletItem;
 import net.mcreator.enragedzombies.item.UnobtainiumAxeItem;
 import net.mcreator.enragedzombies.item.UncommonSwordItem;
 import net.mcreator.enragedzombies.item.UncommonShovelItem;
@@ -59,6 +62,7 @@ import net.mcreator.enragedzombies.item.EpicAxeItem;
 import net.mcreator.enragedzombies.item.EnragedZombiesTabIconItem;
 import net.mcreator.enragedzombies.item.EnragedZombiesTabIcon2Item;
 import net.mcreator.enragedzombies.item.EngiCoinItem;
+import net.mcreator.enragedzombies.item.DeepslateUnobtainiumOreChunkletItem;
 import net.mcreator.enragedzombies.item.CommonSwordItem;
 import net.mcreator.enragedzombies.item.CommonShovelItem;
 import net.mcreator.enragedzombies.item.CommonPickaxeItem;
@@ -166,6 +170,10 @@ public class EnragedZombiesModItems {
 	public static final RegistryObject<Item> ENRAGED_COIN = REGISTRY.register("enraged_coin", () -> new EngiCoinItem());
 	public static final RegistryObject<Item> ENRAGED_ZOMBIES_TAB_ICON = REGISTRY.register("enraged_zombies_tab_icon", () -> new EnragedZombiesTabIconItem());
 	public static final RegistryObject<Item> ENRAGED_ZOMBIES_TAB_ICON_2 = REGISTRY.register("enraged_zombies_tab_icon_2", () -> new EnragedZombiesTabIcon2Item());
+	public static final RegistryObject<Item> UNOBTAINIUM_CHUNKLET = REGISTRY.register("unobtainium_chunklet", () -> new UnobtainiumChunkletItem());
+	public static final RegistryObject<Item> UNOBTANIUM = REGISTRY.register("unobtanium", () -> new UnobtaniumItem());
+	public static final RegistryObject<Item> UNOBTAINIUM_ORE_CHUNKLET = REGISTRY.register("unobtainium_ore_chunklet", () -> new UnobtainiumOreChunkletItem());
+	public static final RegistryObject<Item> DEEPSLATE_UNOBTAINIUM_ORE_CHUNKLET = REGISTRY.register("deepslate_unobtainium_ore_chunklet", () -> new DeepslateUnobtainiumOreChunkletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

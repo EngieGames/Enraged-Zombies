@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "enraged_zombies:exotic_chestplate"
+  },
+  "addition": {
+    "item": "enraged_zombies:unobtanium"
+  },
+  "result": {
+    "item": "enraged_zombies:unobtainium_chestplate"
+  }
+}

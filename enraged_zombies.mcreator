@@ -9,8 +9,8 @@
       "registry_name": "enraged_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/enraged_coin.json",
-          "src/main/java/net/mcreator/enragedzombies/item/EngiCoinItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/EngiCoinItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/enraged_coin.json"
         ]
       }
     },
@@ -24,9 +24,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/blockstates/deepslate_unobtainium_ore.json",
-          "src/main/resources/assets/enraged_zombies/models/block/deepslate_unobtainium_ore.json",
           "src/main/resources/assets/enraged_zombies/models/item/deepslate_unobtainium_ore.json",
-          "src/main/java/net/mcreator/enragedzombies/block/DeepslateUnobtainiumOreBlock.java"
+          "src/main/java/net/mcreator/enragedzombies/block/DeepslateUnobtainiumOreBlock.java",
+          "src/main/resources/assets/enraged_zombies/models/block/deepslate_unobtainium_ore.json"
         ]
       }
     },
@@ -39,38 +39,12 @@
       "registry_name": "unobtainium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
-          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_ore.json",
           "src/main/java/net/mcreator/enragedzombies/world/features/ores/UnobtainiumOreFeature.java",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/unobtainium_ore_biome_modifier.json",
+          "src/main/resources/assets/enraged_zombies/blockstates/unobtainium_ore.json",
           "src/main/resources/assets/enraged_zombies/models/block/unobtainium_ore.json",
-          "src/main/java/net/mcreator/enragedzombies/block/UnobtainiumOreBlock.java",
-          "src/main/resources/assets/enraged_zombies/blockstates/unobtainium_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "BlockDeepslateUnob",
-      "type": "loottable",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_deepslate_unob",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enraged_zombies/loot_tables/blocks/deepslate_unobtainium_ore.json"
-        ]
-      }
-    },
-    {
-      "name": "BlockUnob",
-      "type": "loottable",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "block_unob",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/enraged_zombies/loot_tables/blocks/unobtainium_ore.json"
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_ore.json",
+          "src/main/java/net/mcreator/enragedzombies/block/UnobtainiumOreBlock.java"
         ]
       }
     },
@@ -140,9 +114,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormalRenderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormalEntity.java",
           "src/main/resources/assets/enraged_zombies/models/item/enraged_normal_spawn_egg.json",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_normal_biome_modifier.json"
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_normal_biome_modifier.json",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormalEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -156,10 +130,10 @@
       "registry_name": "enraged_tnt",
       "metadata": {
         "files": [
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_tnt_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNTEntity.java",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNTRenderer.java",
-          "src/main/resources/assets/enraged_zombies/models/item/enraged_tnt_spawn_egg.json"
+          "src/main/resources/assets/enraged_zombies/models/item/enraged_tnt_spawn_egg.json",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_tnt_biome_modifier.json"
         ]
       },
       "path": "~/Zombies"
@@ -175,8 +149,8 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeedRenderer.java",
           "src/main/resources/data/enraged_zombies/forge/biome_modifier/enraged_speed_biome_modifier.json",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeedEntity.java",
-          "src/main/resources/assets/enraged_zombies/models/item/enraged_speed_spawn_egg.json"
+          "src/main/resources/assets/enraged_zombies/models/item/enraged_speed_spawn_egg.json",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeedEntity.java"
         ]
       },
       "path": "~/Zombies"
@@ -190,8 +164,8 @@
       "registry_name": "enraged_zombies_tab_icon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/EnragedZombiesTabIconItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/enraged_zombies_tab_icon.json"
+          "src/main/resources/assets/enraged_zombies/models/item/enraged_zombies_tab_icon.json",
+          "src/main/java/net/mcreator/enragedzombies/item/EnragedZombiesTabIconItem.java"
         ]
       },
       "path": "~/For Icons"
@@ -244,8 +218,8 @@
       "registry_name": "enraged_normal_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal2Entity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal2Renderer.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal2Renderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal2Entity.java"
         ]
       },
       "path": "~/Zombies"
@@ -334,8 +308,8 @@
       "registry_name": "enraged_normal_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal4Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal4Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal4Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal4Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -349,8 +323,8 @@
       "registry_name": "enraged_tnt_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT4Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT4Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT4Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT4Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -394,8 +368,8 @@
       "registry_name": "enraged_tnt_5",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT5Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT5Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT5Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT5Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -454,8 +428,8 @@
       "registry_name": "enraged_speed_6",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed6Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed6Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed6Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed6Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -469,8 +443,8 @@
       "registry_name": "enraged_normal_7",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal7Entity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal7Renderer.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal7Renderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal7Entity.java"
         ]
       },
       "path": "~/Zombies"
@@ -484,8 +458,8 @@
       "registry_name": "enraged_tnt_7",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT7Entity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT7Renderer.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT7Renderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT7Entity.java"
         ]
       },
       "path": "~/Zombies"
@@ -499,8 +473,8 @@
       "registry_name": "enraged_speed_7",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed7Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed7Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed7Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed7Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -514,8 +488,8 @@
       "registry_name": "enraged_normal_8",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal8Entity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal8Renderer.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedNormal8Renderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedNormal8Entity.java"
         ]
       },
       "path": "~/Zombies"
@@ -529,8 +503,8 @@
       "registry_name": "enraged_tnt_8",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT8Entity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT8Renderer.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedTNT8Renderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedTNT8Entity.java"
         ]
       },
       "path": "~/Zombies"
@@ -544,8 +518,8 @@
       "registry_name": "enraged_speed_8",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed8Renderer.java",
-          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed8Entity.java"
+          "src/main/java/net/mcreator/enragedzombies/entity/EnragedSpeed8Entity.java",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/EnragedSpeed8Renderer.java"
         ]
       },
       "path": "~/Zombies"
@@ -646,11 +620,11 @@
       "registry_name": "common",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/CommonItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/common_helmet.json",
-          "src/main/resources/assets/enraged_zombies/models/item/common_leggings.json",
+          "src/main/resources/assets/enraged_zombies/models/item/common_boots.json",
+          "src/main/java/net/mcreator/enragedzombies/item/CommonItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/common_chestplate.json",
-          "src/main/resources/assets/enraged_zombies/models/item/common_boots.json"
+          "src/main/resources/assets/enraged_zombies/models/item/common_leggings.json"
         ]
       },
       "path": "~/Armor and Tools/Armor"
@@ -664,11 +638,11 @@
       "registry_name": "uncommon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_chestplate.json",
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_boots.json",
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_helmet.json",
           "src/main/java/net/mcreator/enragedzombies/item/UncommonItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_leggings.json"
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_chestplate.json",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_leggings.json",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_helmet.json",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_boots.json"
         ]
       },
       "path": "~/Armor and Tools/Armor"
@@ -684,8 +658,8 @@
         "files": [
           "src/main/java/net/mcreator/enragedzombies/item/RareItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/rare_leggings.json",
-          "src/main/resources/assets/enraged_zombies/models/item/rare_chestplate.json",
           "src/main/resources/assets/enraged_zombies/models/item/rare_helmet.json",
+          "src/main/resources/assets/enraged_zombies/models/item/rare_chestplate.json",
           "src/main/resources/assets/enraged_zombies/models/item/rare_boots.json"
         ]
       },
@@ -700,10 +674,10 @@
       "registry_name": "epic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/epic_helmet.json",
-          "src/main/java/net/mcreator/enragedzombies/item/EpicItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/epic_chestplate.json",
+          "src/main/resources/assets/enraged_zombies/models/item/epic_helmet.json",
           "src/main/resources/assets/enraged_zombies/models/item/epic_boots.json",
+          "src/main/java/net/mcreator/enragedzombies/item/EpicItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/epic_leggings.json"
         ]
       },
@@ -719,10 +693,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/enraged_zombies/models/item/legendary_chestplate.json",
-          "src/main/resources/assets/enraged_zombies/models/item/legendary_boots.json",
           "src/main/java/net/mcreator/enragedzombies/item/LegendaryItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/legendary_leggings.json",
-          "src/main/resources/assets/enraged_zombies/models/item/legendary_helmet.json"
+          "src/main/resources/assets/enraged_zombies/models/item/legendary_helmet.json",
+          "src/main/resources/assets/enraged_zombies/models/item/legendary_boots.json"
         ]
       },
       "path": "~/Armor and Tools/Armor"
@@ -736,11 +710,11 @@
       "registry_name": "mythic",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/MythicItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/mythic_boots.json",
           "src/main/resources/assets/enraged_zombies/models/item/mythic_chestplate.json",
+          "src/main/java/net/mcreator/enragedzombies/item/MythicItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/mythic_leggings.json",
-          "src/main/resources/assets/enraged_zombies/models/item/mythic_helmet.json",
-          "src/main/resources/assets/enraged_zombies/models/item/mythic_boots.json"
+          "src/main/resources/assets/enraged_zombies/models/item/mythic_helmet.json"
         ]
       },
       "path": "~/Armor and Tools/Armor"
@@ -754,11 +728,11 @@
       "registry_name": "exotic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_chestplate.json",
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_boots.json",
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_helmet.json",
           "src/main/java/net/mcreator/enragedzombies/item/ExoticItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_leggings.json"
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_chestplate.json",
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_leggings.json",
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_boots.json",
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_helmet.json"
         ]
       },
       "path": "~/Armor and Tools/Armor"
@@ -772,9 +746,9 @@
       "registry_name": "unobtainium",
       "metadata": {
         "files": [
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_helmet.json",
           "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumItem.java",
           "src/main/resources/assets/enraged_zombies/models/item/unobtainium_chestplate.json",
-          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_helmet.json",
           "src/main/resources/assets/enraged_zombies/models/item/unobtainium_leggings.json",
           "src/main/resources/assets/enraged_zombies/models/item/unobtainium_boots.json"
         ]
@@ -790,8 +764,8 @@
       "registry_name": "common_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/CommonSwordItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/common_sword.json"
+          "src/main/resources/assets/enraged_zombies/models/item/common_sword.json",
+          "src/main/java/net/mcreator/enragedzombies/item/CommonSwordItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -805,8 +779,8 @@
       "registry_name": "common_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/CommonPickaxeItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/common_pickaxe.json"
+          "src/main/resources/assets/enraged_zombies/models/item/common_pickaxe.json",
+          "src/main/java/net/mcreator/enragedzombies/item/CommonPickaxeItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -850,8 +824,8 @@
       "registry_name": "common_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/CommonHoeItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/common_hoe.json"
+          "src/main/resources/assets/enraged_zombies/models/item/common_hoe.json",
+          "src/main/java/net/mcreator/enragedzombies/item/CommonHoeItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -865,8 +839,8 @@
       "registry_name": "uncommon_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_sword.json",
-          "src/main/java/net/mcreator/enragedzombies/item/UncommonSwordItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/UncommonSwordItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_sword.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -895,8 +869,8 @@
       "registry_name": "uncommon_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_axe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/UncommonAxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/UncommonAxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_axe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -910,8 +884,8 @@
       "registry_name": "uncommon_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/UncommonShovelItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_shovel.json"
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_shovel.json",
+          "src/main/java/net/mcreator/enragedzombies/item/UncommonShovelItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -925,8 +899,8 @@
       "registry_name": "uncommon_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_hoe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/UncommonHoeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/UncommonHoeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_hoe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -955,8 +929,8 @@
       "registry_name": "rare_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/rare_pickaxe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/RarePickaxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/RarePickaxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/rare_pickaxe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -985,8 +959,8 @@
       "registry_name": "rare_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/RareShovelItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/rare_shovel.json"
+          "src/main/resources/assets/enraged_zombies/models/item/rare_shovel.json",
+          "src/main/java/net/mcreator/enragedzombies/item/RareShovelItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1000,8 +974,8 @@
       "registry_name": "rare_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/rare_hoe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/RareHoeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/RareHoeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/rare_hoe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1015,8 +989,8 @@
       "registry_name": "epic_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/epic_sword.json",
-          "src/main/java/net/mcreator/enragedzombies/item/EpicSwordItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/EpicSwordItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/epic_sword.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1030,8 +1004,8 @@
       "registry_name": "epic_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/epic_pickaxe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/EpicPickaxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/EpicPickaxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/epic_pickaxe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1090,8 +1064,8 @@
       "registry_name": "legendary_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/legendary_sword.json",
-          "src/main/java/net/mcreator/enragedzombies/item/LegendarySwordItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/LegendarySwordItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/legendary_sword.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1135,8 +1109,8 @@
       "registry_name": "legendary_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/LegendaryShovelItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/legendary_shovel.json"
+          "src/main/resources/assets/enraged_zombies/models/item/legendary_shovel.json",
+          "src/main/java/net/mcreator/enragedzombies/item/LegendaryShovelItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1165,10 +1139,10 @@
       "registry_name": "common_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/common_engie_spawn_egg.json",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/CommonEngieRenderer.java",
+          "src/main/java/net/mcreator/enragedzombies/entity/CommonEngieEntity.java",
           "src/main/resources/data/enraged_zombies/forge/biome_modifier/common_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/enragedzombies/entity/CommonEngieEntity.java"
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/CommonEngieRenderer.java",
+          "src/main/resources/assets/enraged_zombies/models/item/common_engie_spawn_egg.json"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1182,10 +1156,10 @@
       "registry_name": "uncommon_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/uncommon_engie_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/entity/UncommonEngieEntity.java",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/uncommon_engie_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/UncommonEngieRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/uncommon_engie_biome_modifier.json"
+          "src/main/resources/assets/enraged_zombies/models/item/uncommon_engie_spawn_egg.json"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1199,10 +1173,10 @@
       "registry_name": "rare_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/rare_engie_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/RareEngieRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/rare_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/enragedzombies/entity/RareEngieEntity.java"
+          "src/main/resources/assets/enraged_zombies/models/item/rare_engie_spawn_egg.json",
+          "src/main/java/net/mcreator/enragedzombies/entity/RareEngieEntity.java",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/rare_engie_biome_modifier.json"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1216,10 +1190,10 @@
       "registry_name": "epic_engie",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/entity/EpicEngieEntity.java",
-          "src/main/resources/assets/enraged_zombies/models/item/epic_engie_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/EpicEngieRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/epic_engie_biome_modifier.json"
+          "src/main/java/net/mcreator/enragedzombies/entity/EpicEngieEntity.java",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/epic_engie_biome_modifier.json",
+          "src/main/resources/assets/enraged_zombies/models/item/epic_engie_spawn_egg.json"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1233,9 +1207,9 @@
       "registry_name": "legendary_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/legendary_engie_spawn_egg.json",
           "src/main/resources/data/enraged_zombies/forge/biome_modifier/legendary_engie_biome_modifier.json",
           "src/main/java/net/mcreator/enragedzombies/entity/LegendaryEngieEntity.java",
+          "src/main/resources/assets/enraged_zombies/models/item/legendary_engie_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/client/renderer/LegendaryEngieRenderer.java"
         ]
       },
@@ -1250,10 +1224,10 @@
       "registry_name": "mythic_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/mythic_engie_spawn_egg.json",
           "src/main/java/net/mcreator/enragedzombies/entity/MythicEngieEntity.java",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/MythicEngieRenderer.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/mythic_engie_biome_modifier.json"
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/mythic_engie_biome_modifier.json",
+          "src/main/resources/assets/enraged_zombies/models/item/mythic_engie_spawn_egg.json",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/MythicEngieRenderer.java"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1267,10 +1241,10 @@
       "registry_name": "exotic_engie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_engie_spawn_egg.json",
+          "src/main/java/net/mcreator/enragedzombies/client/renderer/ExoticEngieRenderer.java",
           "src/main/java/net/mcreator/enragedzombies/entity/ExoticEngieEntity.java",
-          "src/main/resources/data/enraged_zombies/forge/biome_modifier/exotic_engie_biome_modifier.json",
-          "src/main/java/net/mcreator/enragedzombies/client/renderer/ExoticEngieRenderer.java"
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_engie_spawn_egg.json",
+          "src/main/resources/data/enraged_zombies/forge/biome_modifier/exotic_engie_biome_modifier.json"
         ]
       },
       "path": "~/Passive Mobs"
@@ -1284,8 +1258,8 @@
       "registry_name": "mythic_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/MythicSwordItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/mythic_sword.json"
+          "src/main/resources/assets/enraged_zombies/models/item/mythic_sword.json",
+          "src/main/java/net/mcreator/enragedzombies/item/MythicSwordItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1299,8 +1273,8 @@
       "registry_name": "mythic_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/mythic_pickaxe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/MythicPickaxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/MythicPickaxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/mythic_pickaxe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1359,8 +1333,8 @@
       "registry_name": "exotic_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/ExoticSwordItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_sword.json"
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_sword.json",
+          "src/main/java/net/mcreator/enragedzombies/item/ExoticSwordItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1389,8 +1363,8 @@
       "registry_name": "exotic_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_axe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/ExoticAxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/ExoticAxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_axe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1419,8 +1393,8 @@
       "registry_name": "exotic_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/exotic_hoe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/ExoticHoeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/ExoticHoeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/exotic_hoe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1495,8 +1469,8 @@
       "registry_name": "unobtainium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumPickaxeItem.java",
-          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_pickaxe.json"
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_pickaxe.json",
+          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumPickaxeItem.java"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1510,8 +1484,8 @@
       "registry_name": "unobtainium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_axe.json",
-          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumAxeItem.java"
+          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumAxeItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_axe.json"
         ]
       },
       "path": "~/Armor and Tools/Tools"
@@ -1660,6 +1634,244 @@
           }
         ]
       }
+    },
+    {
+      "name": "UnobtainiumChunklet",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtainium_chunklet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumChunkletItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_chunklet.json"
+        ]
+      }
+    },
+    {
+      "name": "Unobtanium",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtanium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enragedzombies/item/UnobtaniumItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/unobtanium.json"
+        ]
+      }
+    },
+    {
+      "name": "UnobtainiumOreChunklet",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtainium_ore_chunklet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/enraged_zombies/models/item/unobtainium_ore_chunklet.json",
+          "src/main/java/net/mcreator/enragedzombies/item/UnobtainiumOreChunkletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateUnobtainiumOreChunklet",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_unobtainium_ore_chunklet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/enragedzombies/item/DeepslateUnobtainiumOreChunkletItem.java",
+          "src/main/resources/assets/enraged_zombies/models/item/deepslate_unobtainium_ore_chunklet.json"
+        ]
+      }
+    },
+    {
+      "name": "Unobchunklettounobtanium",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobchunklettounobtanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/unobchunklettounobtanium.json"
+        ]
+      }
+    },
+    {
+      "name": "ExotichelmToUnobhelm",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotichelm_to_unobhelm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exotichelm_to_unobhelm.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticchestplateToUnobchestplate",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticchestplate_to_unobchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticchestplate_to_unobchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticleggingsToUnobleggings",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticleggings_to_unobleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticleggings_to_unobleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticbootsToUnobboots",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticboots_to_unobboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticboots_to_unobboots.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticswordToUnobsword",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticsword_to_unobsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticsword_to_unobsword.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticpickToUnobpick",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticpick_to_unobpick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticpick_to_unobpick.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticaxeToUnobaxe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticaxe_to_unobaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticaxe_to_unobaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExoticshovelToUnobshovel",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoticshovel_to_unobshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exoticshovel_to_unobshovel.json"
+        ]
+      }
+    },
+    {
+      "name": "ExotichoeToUnobhoe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exotichoe_to_unobhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/exotichoe_to_unobhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Unoborechunkletsmelt",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unoborechunkletsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/unoborechunkletsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslateunoborechunkletsmelt",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslateunoborechunkletsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/deepslateunoborechunkletsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Unoborechunkletblast",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unoborechunkletblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/unoborechunkletblast.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslateunoborechunkletblast",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslateunoborechunkletblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/enraged_zombies/recipes/deepslateunoborechunkletblast.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1682,21 +1894,23 @@
       "item.enraged_zombies.legendary_shovel": "Legendary Shovel",
       "itemGroup.tabmobs": "Mobs (Enraged Zombies)",
       "item.enraged_zombies.exotic_shovel": "Exotic Shovel",
-      "item.enraged_zombies.rare_hoe": "Rare Hoe",
       "item.enraged_zombies.common_engie_spawn_egg": "Common Engie Spawn Egg",
+      "item.enraged_zombies.rare_hoe": "Rare Hoe",
       "item.enraged_zombies.rare_sword": "Rare Sword",
-      "gui.enraged_zombies.enragedcoinoverlay.label_empty": ":",
       "entity.enraged_zombies.epic_engie": "Epic Engie",
+      "gui.enraged_zombies.enragedcoinoverlay.label_empty": ":",
       "item.enraged_zombies.mythic_hoe": "Mythic Hoe",
       "item.enraged_zombies.unobtainium_sword": "Unobtainium Sword",
       "item.enraged_zombies.exotic_sword": "Exotic Sword",
       "entity.enraged_zombies.mythic_engie": "Mythic Engie",
+      "item.enraged_zombies.deepslate_unobtainium_ore_chunklet": "Unobtainium Ore Chunklet",
       "item.enraged_zombies.uncommon_leggings": "Uncommon Leggings",
       "item.enraged_zombies.uncommon_hoe": "Uncommon Hoe",
       "item.enraged_zombies.epic_helmet": "Epic Helmet",
       "item.enraged_zombies.exotic_pickaxe": "Exotic Pickaxe",
       "item.enraged_zombies.uncommon_axe": "Uncommon Axe",
       "item.enraged_zombies.rare_pickaxe": "Rare Pickaxe",
+      "item.enraged_zombies.unobtainium_ore_chunklet": "Unobtainium Ore Chunklet",
       "item.enraged_zombies.epic_engie_spawn_egg": "Epic Engie Spawn Egg",
       "item.enraged_zombies.exotic_chestplate": "Exotic Chestplate",
       "item.enraged_zombies.mythic_chestplate": "Mythic Chestplate",
@@ -1713,6 +1927,7 @@
       "item.enraged_zombies.mythic_shovel": "Mythic Shovel",
       "block.enraged_zombies.unobtainium_ore": "Unobtainium Ore",
       "item.enraged_zombies.rare_chestplate": "Rare Chestplate",
+      "item.enraged_zombies.unobtanium": "Unobtanium",
       "item.enraged_zombies.unobtainium_axe": "Unobtainium Axe",
       "entity.enraged_zombies.enraged_tnt": "Enraged TNT",
       "item.enraged_zombies.mythic_helmet": "Mythic Helmet",
@@ -1769,6 +1984,7 @@
       "entity.enraged_zombies.common_engie": "Common Engie",
       "item.enraged_zombies.exotic_axe": "Exotic Axe",
       "item.enraged_zombies.common_shovel": "Common Shovel",
+      "item.enraged_zombies.unobtainium_chunklet": "Unobtainium Chunklet",
       "item.enraged_zombies.legendary_pickaxe": "Legendary Pickaxe",
       "item.enraged_zombies.enraged_zombies_tab_icon": "Enraged Zombies Tab Icon",
       "entity.enraged_zombies.legendary_engie": "Legendary Engie",
@@ -1836,7 +2052,7 @@
   "workspaceSettings": {
     "modid": "enraged_zombies",
     "modName": "Enraged Zombies",
-    "version": "1.10.25",
+    "version": "1.30.25",
     "description": "Made with MCreator",
     "author": "DevEngie",
     "websiteURL": "https://www.twitch.tv/engiegames",

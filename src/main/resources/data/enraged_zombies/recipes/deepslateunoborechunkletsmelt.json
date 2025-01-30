@@ -1,0 +1,10 @@
+{
+  "group": "unoborechunkletsmelt",
+  "type": "minecraft:smelting",
+  "experience": 20,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "enraged_zombies:deepslate_unobtainium_ore_chunklet"
+  },
+  "result": "enraged_zombies:unobtanium"
+}

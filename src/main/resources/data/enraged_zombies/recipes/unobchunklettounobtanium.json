@@ -1,0 +1,42 @@
+{
+  "group": "unobchunklet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "1": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "2": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "3": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "4": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "5": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "6": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "7": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    },
+    "8": {
+      "item": "enraged_zombies:unobtainium_chunklet"
+    }
+  },
+  "result": {
+    "item": "enraged_zombies:unobtanium",
+    "count": 1
+  }
+}
